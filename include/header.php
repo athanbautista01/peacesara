@@ -43,12 +43,13 @@
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-
-              <h3 class="masthead-brand"><img height="70px" src="img/peacesara.png"> PEACESARA</h3>
+            <a href="index.php">
+              <h2 class="masthead-brand"><img height="70px" src="img/peacesara.png">&nbsp;PEACESARA</h2>
+              </a>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">HOME</a></li>
-                  <li><a href="#">LOGIN</a></li>
+                  <li class="active"><a href="index.php">HOME</a></li>
+                  <li><a href="login.php">LOGIN</a></li>
                   <li onclick="openNav()"><a href="#">MENU</a></li>
                 </ul>
               </nav>

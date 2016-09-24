@@ -1,33 +1,23 @@
-/*
- * Globals
- */
 
-/* Links */
 a,
 a:focus,
 a:hover {
   color: #0c2c52;
 }
 
-
-
-
-/*
- * Base structure
- */
-
 html,
 body {
   height: 100%;
   background-color: #ffffff;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 body {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
   color: #0c2c52;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -43,18 +33,17 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
 .inner {
   padding: 30px;
 }
 
-
-/*
- * Header
- */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #0c2c52;
+  text-shadow: 0 1px 3px rgba(0,0,0,.6);
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
 .masthead-nav > li {
@@ -91,11 +80,6 @@ body {
     float: right;
   }
 
-
-/*
- * Cover
- */
-
 .cover {
   padding: 0 20px;
 }
@@ -104,23 +88,9 @@ body {
   font-weight: bold;
 }
 
-
-/*
- * Footer
- */
-
 .mastfoot {
   color: #0c2c52;
 }
-
-
-/*
- * Affix and center
- */
-
-
-/* nav css */
-
 
 .sidenav {
     height: 100%;
@@ -179,5 +149,12 @@ body {
 .divy{
   background-color: #dcf0f7;
   padding: 1px;
+  margin-bottom: 10px;
+}
+
+.dizz{
+  background-color: #dcf0f7;
+  padding: 1px;
+  margin-bottom: 10px;
   margin-bottom: 10px;
 }

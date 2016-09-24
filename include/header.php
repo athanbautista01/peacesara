@@ -26,13 +26,13 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About Us</a>
+    <a href="about.php">About Us</a>
     <a href="discussion.php">Discussions</a>
-    <a href="#">Events</a>
-    <a href="#">Donations</a>
-    <a href="#">Articles</a>
-    <a href="#">Profile</a>
-    <a href="#">Resources</a>
+    <a href="events.php">Events</a>
+    <a href="donations.php">Donations</a>
+    <a href="articles.php">Articles</a>
+    <a href="profile.php">Profile</a>
+    <a href="resources.php">Resources</a>
 
   </div>
   <div class="site-wrapper" id="main">

@@ -5,7 +5,7 @@
         $title="Peacesara | Login";
         include("include/header.php");
         ?>
-
+        <hr>
         <div class="container">
             <center>
                 <div class="dizz col-md-4 col-md-offset-4">
@@ -71,7 +71,7 @@
                 </div>
             </center>
         </div>
-
+        <hr>
         <?php
         //include the header
         include("include/footer.php");

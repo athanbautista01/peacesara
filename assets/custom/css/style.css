@@ -137,14 +137,11 @@ body {
 }
 
 /* custom css */
-.btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
+.btn-default, .btn-danger, .btn-success {
     border-radius: 0px;
     font-size: 20px;
-
 }
+
 
 .divy{
   background-color: #dcf0f7;
@@ -157,4 +154,51 @@ body {
   padding: 1px;
   margin-bottom: 10px;
   margin-bottom: 10px;
+}
+
+.dDesc{
+  text-align: left;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 4px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    background: #f8f8f8;
+    border: 3px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    background-image: none;
+    margin-bottom: 5px;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.gg{
+    height: 500px;
+    overflow: scroll;
 }

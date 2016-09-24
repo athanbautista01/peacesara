@@ -27,7 +27,7 @@
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">About Us</a>
-    <a href="#">Discussions</a>
+    <a href="discussion.php">Discussions</a>
     <a href="#">Events</a>
     <a href="#">Donations</a>
     <a href="#">Articles</a>

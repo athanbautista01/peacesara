@@ -65,6 +65,5 @@
         <hr>
                 <?php
             //include the header
-            $title="Pet Lane";
             include("include/footer.php");
         ?>

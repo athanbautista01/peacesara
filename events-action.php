@@ -75,6 +75,5 @@
 <hr>
 <?php
     //include the footer
-$title="Pet Lane";
 include("include/footer.php");
 ?>

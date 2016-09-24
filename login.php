@@ -8,7 +8,7 @@
         <hr>
         <div class="container">
             <center>
-                <div class="dizz col-md-4 col-md-offset-4">
+                <div class="dizz thumbnail col-md-4 col-md-offset-4">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active"><a href="#login" aria-controls="login" role="tab" data-toggle="tab">LOGIN</a></li>
@@ -29,7 +29,7 @@
                                     <input type="password" name="password" placeholder="Password" class="form-password form-control" id="form-password" required>
                                 </div>
                                 <!--<input type="submit" name="submitlogin" class="btn" value="Sign in!" />-->
-                                <button type="submit" name="submitlogin" class="btn btn-custom">Sign in!</button>
+                                <button type="submit" name="submitlogin" class="btn btn-default">Sign in!</button>
                             </form>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="register">
@@ -64,7 +64,7 @@
                                             <input type="password" name="formPassword" placeholder="Password..." class="form-email form-control" id="formPassword" required>
                                         </div>
 
-                                        <button type="submit" class="btn">Sign me up!</button>
+                                        <button type="submit" class="btn btn-default">Sign me up!</button>
                                     </form>
                         </div>
                     </div>

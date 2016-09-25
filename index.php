@@ -33,7 +33,7 @@ include("include/header.php");
 	<hr>
 	<a class="btn btn-default" href="discussion-new.php" role="button">Start Discussion</a>
 	<hr>
-  <h2><a href="discussion-list">Ongoing Discussions</a></h2>
+  <h2><a href="discussion.php">Ongoing Discussions</a></h2>
   <div class="thumbnail" style="height: 190px">
     <div class="col-lg-4">
       <br>

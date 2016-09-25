@@ -16,7 +16,7 @@
                 <div class="col-lg-3">
                 <br>
 
-                <a class="btn btn-default" href="events-action.php" role="button"><font size = "5px"> Take Action</font></a>
+                <a class="btn btn-danger" href="events-action.php" role="button"><font size = "5px"> Take Action</font></a>
                 </div>
                 <div class="col-lg-12">
                         <?php

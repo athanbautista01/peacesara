@@ -15,13 +15,13 @@ require_once("../database/connect.php");
         if ($conn->query($query) === TRUE) {
           ?>
           <script>
-            window.location.href='../discussion.php?<?php echo $discid?>';
+            window.location.href='../discussion-details.php?<?php echo $discid?>';
           </script>
           <?php
         } else {
           ?>
           <script>
-            window.location.href='../discussion.php?<?php echo $discid ?>';
+            window.location.href='../discussion-details.php?<?php echo $discid ?>';
           </script>
           <?php
           die ($conn->error);
@@ -41,13 +41,13 @@ require_once("../database/connect.php");
       if ($conn->query($query) === TRUE) {
         ?>
         <script>
-          window.location.href='../discussion.php?<?php echo $discid?>';
+          window.location.href='../discussion-details.php?<?php echo $discid?>';
         </script>
         <?php
       } else {
         ?>
         <script>
-          window.location.href='../discussion.php?<?php echo $discid ?>';
+          window.location.href='../discussion-details.php?<?php echo $discid ?>';
         </script>
         <?php
         die ($conn->error);

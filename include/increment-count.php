@@ -11,7 +11,7 @@ if(isset($_GET['CountID']) && isset($_GET['DiscussionID'])) {
 		if ($conn->query($query) === TRUE) {
 			?>
 			<script>
-				window.location.href='../discussion.php?<?php echo $DiscID ?>';
+				window.location.href='../discussion-details.php?<?php echo $DiscID ?>';
 			</script>
 			<?php
 		}
@@ -21,14 +21,14 @@ if(isset($_GET['CountID']) && isset($_GET['DiscussionID'])) {
 		if ($conn->query($query) === TRUE) {
 			?>
 			<script>
-				window.location.href='../discussion.php?<?php echo $DiscID ?>';
+				window.location.href='../discussion-details.php?<?php echo $DiscID ?>';
 			</script>
 			<?php
 		}
 	} else {
 		?>
 			<script>
-				window.location.href='../discussion.php?<?php echo $DiscID ?>';
+				window.location.href='../discussion-details.php?<?php echo $DiscID ?>';
 			</script>
 			<?php
 	}

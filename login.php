@@ -18,7 +18,7 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="login">
-                            <form role="form" action="include/login.php" method="post" class="login-form">
+                            <form role="form" action="include/process-login.php" method="post" class="login-form">
                             <br>
                                 <div class="form-group">
                                     <label class="sr-only" for="username">Username</label>
@@ -33,7 +33,7 @@
                             </form>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="register">
-                            <form role="form" action="include/userInput.php" name="registerForm" id="registerForm" method="post" class="registration-form">
+                            <form role="form" action="include/process-register.php" name="registerForm" id="registerForm" method="post" class="registration-form">
                             <br>
                                         <div class="form-group">
                                             <label class="sr-only" for="formFirstName">First name</label>

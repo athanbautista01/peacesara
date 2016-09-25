@@ -2,7 +2,7 @@
 //Connect to MySQL
 // require_once("database/connect.php");
 //include the header
-$title="Peacesara | Resources";
+$title="Peacesara | Add New Discussion";
 include("include/header.php");
 ?>
 <hr>

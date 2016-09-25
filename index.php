@@ -31,9 +31,9 @@ include("include/header.php");
 </div>
 <div class="col-lg-6">
 	<hr>
-	<a class="btn btn-default" href="#" role="button">Start Discussion</a>
+	<a class="btn btn-default" href="discussion-new.php" role="button">Start Discussion</a>
 	<hr>
-  <h2>Ongoing Discussions</h2>
+  <h2><a href="discussion-list">Ongoing Discussions</a></h2>
   <div class="thumbnail" style="height: 190px">
     <div class="col-lg-4">
       <br>
@@ -81,7 +81,7 @@ include("include/header.php");
 	<hr>
 	<a class="btn btn-default" href="events-action.php" role="button">Take Action</a>
 	<hr>
-  <h2>Events</h2>
+  <h2><a href="events.php">Events</a></h2>
   <?php
   //Build the query to use to fetch records
   $query = "SELECT event.EventID, event.EventImage, event.EventTitle, event.EventDate, event.EventDesc

@@ -1,6 +1,6 @@
 <?php
 //Connect to MySQL
-/ require_once("database/connect.php");
+// require_once("database/connect.php");
 //include the header
 $title="Peacesara | Profile";
 include("include/header.php");

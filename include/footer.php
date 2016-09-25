@@ -1,4 +1,4 @@
-      <div class="cover-container">
+	<div class="cover-container">
         <div class="cover-container mastfoot">
           <div class="inner">
             <p>Copyright &copy; #PeaceHACK | <a href="#">Team Kinchana</a> 2016. All Rights Reserved</p>

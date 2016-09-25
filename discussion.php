@@ -11,13 +11,12 @@
                 <h2 class="dDesc">Is the idea of world peace an impossible dream?</h2>
                 <p class="dDesc">TLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed lobortis risus, vitae viverra erat. Aliquam dictum urna sed feugiat consequat. Cras tincidunt mollis lorem ac aliquet. Fusce elit ante, aliquam finibus semper vehicula, pellentesque quis tellus. Sed mollis congue metus, nec dignissim est vehicula vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tristique, enim a aliquet sagittis, justo velit congue nisl, et condimentum diam velit ac urna. Sed mollis, quam nec eleifend porta, sapien augue elementum ante, non iaculis nulla enim a diam. Maecenas vitae tempus lectus. Etiam dapibus quam quis pulvinar dictum. Vivamus efficitur interdum odio vitae lobortis.</p>
                 <br>
-                <img height="300px" src="img/debate1.jpg">
+                <img class="img-responsive" src="img/debate1.jpg">
                 <br><br>
-                <div class="col-lg-6">
-                    <span class="badge">5</span>&emsp;<a class="btn btn-success" href="#" role="button">PRO</a> 
-                </div>
-                <div class="col-lg-6">
-                    <a class="btn btn-danger" href="#" role="button">CON</a>&emsp;<span class="badge">5</span>
+                <div class="col-lg-12">
+                    <span class="badge">5</span>&nbsp;<a class="btn btn-success" href="#" role="button">PRO</a> 
+                    &nbsp;&nbsp;
+                    <a class="btn btn-danger" href="#" role="button">CON</a>&nbsp;<span class="badge">5</span>
                 </div>
             </div>
             <div class="col-lg-3">
